@@ -47,7 +47,6 @@
                   </svg>
                   <!-- Cart Icon -->
                   <div class="relative cart-icon h-10 w-10 bg-yellow-500 flex items-center justify-center rounded-xl">
-                    <div class="cart-item-number text-gray-800 text-xs absolute -top-1 -right-1 h-4 w-4 bg-white rounded-full flex justify-center items-center"></div>
                     <svg class="h-4 w-4 text-gray-600" xmlns="http://owww.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
                       </svg>
@@ -116,7 +115,7 @@
                     <span class="w-10"></span>
                 </div>
                 <div class="cart-items mt-5">
-                    <div class="cart-item bg-300 flex items-center pb-4 border-b">
+                    <div class="cart-item border-b border-gray-100 flex items-center pb-4"> 
                         <div class="cart-item-image w-48 h-52 bg-white p-4 rounded-lg">
                             <img class="w-full h-full object-contain"
                             src="https://www.nvidia.com/content/dam/en-zz/Solutions/geforce/ampere/rtx-3090/geforce-rtx-3090-shop-630-d@2x.png">
@@ -124,13 +123,13 @@
                         <div class="cart-item-details flex-grow">
                             <div class="cart-item-title font-bold text-sm text-gray-600">
                                 GeForce RTX 3090 
-                            </div>
+                            </div> 
                             <div class="cart-item-brand text-sm text-gray-400">
                                 Nividia
                             </div>
                         </div>
                         <div class="cart-item-counter w-48 flex items-center">
-                            <div class="chevron left text-gray-400 bg-gray-100 rounded h-6 w-6 flex justify-center items-center hover:bg-gray-200 mr-2">
+                            <div class="chevron left text-gray-400 bg-gray-100 rounded h-6 w-6 flex justify-center items-center hover:bg-gray-200 mr-2 cursor-point">
                                 <i class="fas fa-chevron-left fa-xs"></i>
                             </div>
                             <h4 clas="text-gray-400">x1</h4>
@@ -144,10 +143,51 @@
                         <div class="cart-item-delete w-10 font-bold text-gray-300 cursor-pointer hover:text-gray-400">
                             <i class="fas fa-times"></i>
                         </div>
+                        </div>
+
+                        <div class="cart-item border-b border-gray-100 flex items-center pb-4">
+                            <div class="cart-item-image w-48 h-52 bg-white p-4 rounded-lg">
+                                <img class="w-full h-full object-contain"
+                                src="https://cdn11.bigcommerce.com/s-042b2/images/stencil/1280x1280/products/951974/669634/ROG-STRIX-B560-F-GAMING-WIFI-prod1__60104.1621933566.jpg?c=2&imbypass=on">
+                            </div>
+                            <div class="cart-item-details flex-grow">
+                                <div class="cart-item-title font-bold text-sm text-gray-600">
+                                    Asis ROG STRIX B560-F GAMING WIFI Motherboard 
+                                </div> 
+                                <div class="cart-item-brand text-sm text-gray-400">
+                                    ASUS
+                                </div>
+                            </div>
+                            <div class="cart-item-counter w-48 flex items-center">
+                                <div class="chevron left text-gray-400 bg-gray-100 rounded h-6 w-6 flex justify-center items-center hover:bg-gray-200 mr-2 cursor-point">
+                                    <i class="fas fa-chevron-left fa-xs"></i>
+                                </div>
+                                <h4 clas="text-gray-400">x1</h4>
+                                <div class="cheveron-right text-gray-400 bg-gray-100 rounded h-6 w-6 flex justify-center items-center hover:bg-gray-200 ml-2 cursor-pointer">
+                                    <i class="fas fa-chevron-right fa-xs"></i>
+                                </div>
+                            </div>
+                            <div class="cart-item-total-cost w-48 font-bold text-gray-400">
+                                $ 984.00
+                            </div>
+                            <div class="cart-item-delete w-10 font-bold text-gray-300 cursor-pointer hover:text-gray-400">
+                                <i class="fas fa-times"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="complete-order flex justify-end mt-10">
+                        <div class="total-cost mr-7">
+                            <h2 class="text-gray-400">Total Cost</h2>
+                            <div class="total-cost-number text-gray-600 font-bold total-cost-number text-3xl">
+                                $ 5584.00
+                            </div>
+                        </div>
+                        <div class="complete-order-button w-56 flex items-center justify-center bg-yellow-500 rounded text-white cursor-pointer hover:bg-yellow-600" >
+                            Complete Order
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div> 
-    </div>
-</body>
-</html>
+            </div> 
+        </div>
+    </body>
+    </html>
